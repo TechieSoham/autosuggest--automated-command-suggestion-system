@@ -27,9 +27,13 @@ Example:
    git clone https://github.com/TechieSoham/autosuggest--automated-command-suggestion-system
 .git
    cd your-repo-name
+   
 g++ main.cpp -o autocomplete
+
 ./autocomplete
+
 Enter command prefix: ex
+
 Did you mean:
   - exit : Exit the program
 
