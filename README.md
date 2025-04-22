@@ -1,25 +1,21 @@
-# autosuggest--automated-command-suggestion-system
+# AutoSuggest
 
-# 🚀 Command Autocomplete using Trie (C++)
+## Overview
 
-This project implements a simple **command autocomplete** system using the **Trie** data structure in C++.  
-It reads a list of commands and their descriptions from a file (`commands.txt`) and provides intelligent suggestions based on user input.
+AutoSuggest is a command-line tool written in C++ that provides command suggestions based on user input. It uses a Trie data structure to offer suggestions from a list of commands. The tool helps users quickly find and execute commands by providing intelligent suggestions.
 
----
+## Installation
 
-## 📚 How It Works
-- Commands and their descriptions are loaded from `commands.txt`.
-- Commands are inserted into a Trie structure (in lowercase for case-insensitive matching).
-- When the user types a prefix, the program suggests matching commands along with their descriptions.
+### Prerequisites
 
----
+- A Unix-like operating system (macOS or Linux)
+- `g++` compiler (for compiling the C++ code)
 
-## 🛠️ Features
-- ✅ Case-insensitive search
-- ✅ Fast and efficient prefix-based autocomplete
-- ✅ Command suggestions with descriptions
-- ✅ Simple and beginner-friendly C++ project
+### Steps to Install
 
----
+1. **Clone the Repository**
 
-## 📂 Project Structure
+   ```bash
+   git clone https://github.com/KhadyotTakale/autosuggest_commandCompletion.git
+   cd autosuggest_commandCompletion
+   ```
